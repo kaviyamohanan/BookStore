@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.hero {
+    background: url("../images/hero.jpg");
+    padding: 20px;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-top: -70px !important;
+}
+h1.hero-title {
+    color: #fff;
+    font-weight: 900;
+    margin-bottom:0;
+}
+p.tagline {
+    color: #fff;
+    margin-bottom: 46px;
+}
+.margin-top-negative {
+    margin-top: -70px !important;
+    justify-content: space-around;
+    padding-inline:10%;
+}
+.books{
+    background:transparent;
+    border:none;
+}
+    .books img {
+        box-shadow: -1px 5px 13px 5px #00000029;
+        height:230px;
+        border-radius:4px;
+    }
+.book-card-body {
+    padding: 12px 0px 5px 0px;
+}
+
+.book-card-body {
+    font-size: 14px;
+}
+.book-card-title {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.genre {
+    background: #0000002e;
+    border-radius: 100px;
+    display: block;
+    width: fit-content;
+    padding: 5px 16px;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    backdrop-filter: blur(5px);
+}
+
+svg {
+    height: 19px;
+    width: 18px;
+    margin-right: 11px;
+}
+.hero select, .hero input {
+    border-radius:0;
+}
+.navbar {
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: #0000008c;
+    z-index:100;
+}
+
+.nav-link.active {
+    background:#fff;
+    text-decoration:none;
+}
+.filter-btn {
+    color: #fff;
+    background: rgba(0,0,0,.7);
+    border-radius:0;
+}
+
+.cart-btn {
+    background: transparent;
+    color: #000;
+}
+.book-card-body .card-text {
+    margin-bottom: 7px;
+}
